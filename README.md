@@ -11,7 +11,7 @@ down. Nothing surprises you, because there is nothing left in it that can.
 Made for people who find ordinary study music unusable. In Swedish that group
 is called NPF. In English it is closest to ADHD, autism and neurodivergent.
 
-**Listen first:** [45 minutes on YouTube](LÄNK-HÄR)
+**Listen first:** [45 minutes on YouTube](https://www.youtube.com/watch?v=mZBXpt6Aj1A)
 
 ---
 
