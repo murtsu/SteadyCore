@@ -22,6 +22,7 @@ is called NPF. In English it is closest to ADHD, autism and neurodivergent.
 | `npf-calm-bed.json` | The ComfyUI workflow. This is the main thing. |
 | `make_workflow.py` | Rebuilds that JSON if you want to change the prompt or the settings. |
 | `loopa.sh` | Turns a finished track into one that loops with no seam. |
+| `NPF-song.json` | Example workflow you can play with. |
 
 No audio files. The music lives on YouTube so the repo stays small.
 
