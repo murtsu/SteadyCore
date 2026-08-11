@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
-"""Builds a ComfyUI UI-format workflow for a calm, predictable NPF-friendly bed.
 
-UI format is the one you drag onto the canvas. Link ids have to stay consistent
-between every node's inputs/outputs and the top level links array, which is why
-this is generated rather than typed.
-"""
+# SteadyCore
+# Copyright (C) 2026 Marko Tahvanainen
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.Builds a ComfyUI UI-format workflow for a calm, predictable NPF-friendly bed.
 
 import json
 
@@ -146,7 +153,7 @@ for n in nodes:
             seen_out.add(lid)
 assert seen_in == seen_out == set(declared), "link set mismatch"
 
-path = "/mnt/user-data/outputs/npf-calm-bed.json"
+path = "npf-calm-bed.json"
 with open(path, "w") as f:
     json.dump(workflow, f, indent=2)
 print(f"{len(nodes)} nodes, {len(links)} links, all consistent -> {path}")
