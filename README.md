@@ -181,3 +181,19 @@ Verktygen fanns redan. Ingen hade riktat dem hit.
 MIT. Använd det till vad du vill.
 
 Om du gör något bra av det, hör gärna av dig.
+
+## Tracks made with this
+
+Two so far, both free to listen to.
+
+**45 minutes.** C minor. The lighter of the two. Matches a lesson.
+https://youtu.be/mZBXpt6Aj1A
+
+**1 hour 11.** Lower and darker. Phrygian, low register. For a long
+evening rather than a single class.
+https://youtu.be/51qOhEgAMFQ
+
+Same workflow, same negative prompt, both generated short and looped.
+The differences are in the positive prompt and the length only.
+
+If you make something with this, tell me and I will link it here.
