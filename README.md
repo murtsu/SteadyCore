@@ -22,7 +22,7 @@ neurodivergent.
 
 - [45 minutes, calm](https://youtu.be/mZBXpt6Aj1A) — the original, no pulse
 - [1 hour 11, darker](https://youtu.be/51qOhEgAMFQ) — lower and heavier
-- Bassey NPF — the same rule with a beat, for people who want movement
+- Bassey NPF — the same rule with a beat, for people who want movement, https://youtu.be/APKtICzeLYs?si=0xshZrWIsGr659JP
 
 ---
 
@@ -108,6 +108,95 @@ Then loop it:
 
 [RUNBOOK.md](RUNBOOK.md) has the whole path through to upload, including
 the YouTube settings that quietly matter.
+
+---
+
+## The calm prompt
+
+Written out here so you can read it without opening the JSON. It lives in
+`make_workflow.py`, which is where you edit it.
+
+Positive:
+
+    ambient drone, instrumental, no vocals, sustained warm pad, soft felt
+    piano, low strings, very slow, no drums, no percussion, no build, no
+    drop, no sections, constant dynamics, minimal melody, repetitive,
+    warm, dark, soft low pass filter, muted high frequencies, 56 BPM,
+    C minor, steady, gentle, patient
+
+Negative:
+
+    vocals, singing, lyrics, choir, drums, percussion, cymbals, hi-hat,
+    shaker, bright, harsh, sibilance, crescendo, build up, drop, dynamic
+    change, sudden entrance, dramatic, orchestral swell, brass,
+    distortion, arpeggio, fast, busy, glitch, reverse
+
+For a darker version, change the tail of the positive prompt to
+`dusky, dark, muted high frequencies, 56 BPM, F minor, phrygian mode,
+low register, sombre` and drop `warm` and `soft low pass filter`. Naming
+the mode does more than moving the key letter around, and `low register`
+takes the whole thing down without you having to argue about octaves.
+
+Below about F minor you start losing the fundamental on phone speakers,
+which is where most people will actually hear it.
+
+The Bassey NPF prompts are in [BASSEY-NPF.md](BASSEY-NPF.md).
+
+---
+
+## Cover art
+
+YouTube will not accept audio on its own, so every track needs a still
+image. These are the prompts behind the three that are up. Square, at
+least 1280 across.
+
+The garden is the same in all of them. Only the stones change.
+
+**Calm, dark stones:**
+
+    overhead view of a Japanese dry garden, raked gravel in wide
+    concentric rings around two smooth dark stones, warm near-black sand,
+    single soft side light, matte surface, no glare, very narrow tonal
+    range, deep warm charcoal and pale sand ochre, minimal, still, quiet,
+    fine film grain, soft falloff toward the edges, no sky, no horizon,
+    no plants, no people
+
+**Darker track, white stones:** the same prompt with `two smooth pale
+white stones` in place of the dark ones. The lighter image carries the
+heavier music, which was not planned and works anyway.
+
+**Bassey NPF, four stones in a row:**
+
+    overhead view of a Japanese dry garden, four smooth stones in a
+    straight row at perfectly even intervals, raked gravel in concentric
+    rings around each stone, the rings meeting and overlapping between
+    them, warm near-black sand, one stone glowing deep burnt orange,
+    single soft side light, matte, narrow tonal range, still, precise,
+    fine film grain, no plants, no sky, no people
+
+Four beats in a bar without drawing a drum. The orange is the same one as
+the logo, so the third cover looks like it belongs to the other two while
+still being the one that stands out.
+
+Negative prompt for all of them:
+
+    bright, high contrast, saturated, vibrant, neon, hdr, busy, cluttered,
+    uneven spacing, random placement, plants, sky, horizon, people, faces,
+    hands, sharp specular highlights, glare, lens flare, text, watermark,
+    logo, drums, instruments, speakers
+
+`uneven spacing, random placement` is what makes the four-stone one work.
+Even intervals are the whole idea and an image model will always want to
+scatter things naturally.
+
+Two rules that matter more than the wording. Keep the subject centred,
+because YouTube Music crops to a square on the lock screen and in
+playlists. And check it at 100 pixels wide before you commit, since that
+is the size it lives at most of the time. Low contrast detail turns into a
+brown smudge.
+
+Dark and flat is deliberate. Someone may have this on screen for an hour.
+If it looks striking, it is wrong.
 
 ---
 
