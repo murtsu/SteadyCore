@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo/steadycore-mark-dark.png" width="140" alt="SteadyCore">
+  <img src="steadycore-mark-dark.png" width="140" alt="SteadyCore">
 </p>
 
 <h1 align="center">SteadyCore</h1>
